@@ -1255,6 +1255,63 @@ textarea {
 }
 
 
+/* newsletter */
+
+.newsletter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--platinum);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-content {
+  text-align: center;
+}
+
+.newsletter-icon img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.newsletter-text h2 {
+  font-size: 1.5rem;
+  color: var(--royal-blue-dark);
+}
+
+.newsletter-text p {
+  font-size: 1rem;
+  color: var(--davys-gray);
+}
+
+.newsletter-form {
+  margin-top: 1rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.email-input {
+  padding: 12px;
+  border: 1px solid var(--cool-gray);
+  border-radius: 8px;
+  width: 250px;
+  transition: all 0.3s ease;
+}
+
+.email-input:focus {
+  border-color: var(--royal-blue-dark);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
 /*-----------------------------------*\ 
  * #FOOTER
 \*-----------------------------------*/

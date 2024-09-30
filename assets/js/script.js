@@ -177,3 +177,11 @@ window.addEventListener("load", () => {
 });
 
 
+/* newsletter */
+document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const email = document.querySelector('.email-input').value;
+  if (email) {
+    alert('Thank you for subscribing!');
+  }
+});
