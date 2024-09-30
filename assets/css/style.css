@@ -1758,7 +1758,7 @@ footer {
  * responsive for larger than 450px 
  */
 
-@media (min-width: 450px) {
+ @media (min-width: 450px) {
   /**
    * CUSTOM PROPERTY 
    */
@@ -1767,12 +1767,11 @@ footer {
     /**
      * typography
      */
-
-    --fs-1: 60px;
+    --fs-1: 60px; /* Main font size */
   }
 
   /**
-   * REUESED STYLE 
+   * REUSED STYLE 
    */
 
   .h1,
@@ -1781,7 +1780,7 @@ footer {
   }
 
   .btn {
-    padding-block: 15px;
+    padding-block: 15px; /* Vertical padding for buttons */
   }
 
   /**
@@ -1790,7 +1789,7 @@ footer {
 
   .navbar {
     left: auto;
-    width: 300px;
+    width: 300px; /* Fixed width for navbar */
   }
 
   /**
@@ -1798,12 +1797,12 @@ footer {
    */
 
   .hero {
-    padding: 100px 0 110px;
+    padding: 100px 0 110px; /* Padding for hero section */
   }
 
   .shape-content {
     top: -70px;
-    right: -260px;
+    right: -260px; /* Positioning for shape content */
   }
 
   /**
@@ -1811,17 +1810,16 @@ footer {
    */
 
   .about-card .card-title {
-    padding-inline: 40px;
+    padding-inline: 40px; /* Horizontal padding for card titles */
   }
 
   .about-bottom-banner {
-    max-width: 400px;
-    margin-inline: auto;
-    margin-bottom: 40px;
+    max-width: 400px; /* Maximum width for bottom banner */
+    margin: 0 auto 40px; /* Centered with bottom margin */
   }
 
   .about-bottom-content {
-    padding-inline: 50px;
+    padding-inline: 50px; /* Horizontal padding for content */
   }
 
   /**
@@ -1829,21 +1827,20 @@ footer {
    */
 
   .features .h2 {
-    --fs-2: 32px;
+    --fs-2: 32px; /* Font size for features */
   }
 
   .expert-card .expert-title {
-    padding-inline: 40px;
+    padding-inline: 40px; /* Padding for expert titles */
   }
 
   .expert-bottom-banner {
-    max-width: 400px;
-    margin-inline: auto;
-    margin-bottom: 40px;
+    max-width: 400px; /* Maximum width for expert banner */
+    margin: 0 auto 40px; /* Centered with bottom margin */
   }
 
   .expert-bottom-content {
-    padding-inline: 50px;
+    padding-inline: 50px; /* Horizontal padding for expert content */
   }
 
   /**
@@ -1851,22 +1848,22 @@ footer {
    */
 
   .cta-title {
-    --fs-1: 42px;
+    --fs-1: 42px; /* Font size for CTA */
   }
 
   .cta-form {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center content */
     align-items: flex-end;
-    gap: 30px;
+    gap: 30px; /* Space between items */
   }
 
   .cta input {
-    margin-bottom: 0;
+    margin-bottom: 0; /* Reset bottom margin for inputs */
   }
 
   .cta .btn-secondary {
-    min-width: max-content;
+    min-width: max-content; /* Ensure button has enough width */
   }
 
   /**
@@ -1874,27 +1871,27 @@ footer {
    */
 
   .contact-title {
-    --fs-2: 32px;
+    --fs-2: 32px; /* Font size for contact title */
   }
 
   .contact-banner {
-    max-width: 300px;
-    margin-inline: auto;
+    max-width: 300px; /* Maximum width for contact banner */
+    margin: 0 auto; /* Centered */
   }
-}
-
+ }
+  
 /**
  * responsive for larger than 560px 
  */
 
-@media (min-width: 560px) {
+ @media (min-width: 560px) {
   /**
-   * REUESED STYLE 
+   * REUSED STYLE 
    */
 
   .container {
-    max-width: 550px;
-    margin-inline: auto;
+    max-width: 550px; /* Limit max width for container */
+    margin: 0 auto; /* Center the container */
   }
 
   /**
@@ -1902,12 +1899,12 @@ footer {
    */
 
   .navbar-wrapper {
-    position: relative;
+    position: relative; /* Relative positioning for navbar */
   }
 
   .navbar {
-    top: calc(100% + 15px);
-    right: 0;
+    top: calc(100% + 15px); /* Positioning for navbar */
+    right: 0; /* Align to the right */
   }
 
   /**
@@ -1916,24 +1913,25 @@ footer {
 
   .hero-content,
   .about-bottom-content {
-    text-align: left;
+    text-align: left; /* Align text to the left */
   }
 
   .hero .btn-primary,
   .about-bottom .btn-secondary {
-    margin-inline: 0;
+    margin-inline: 0; /* Reset inline margins for buttons */
   }
 
   .shape-content {
-    top: -156px;
-    right: -152px;
+    top: -156px; /* Adjust position for shape content */
+    right: -152px; /* Adjust position for shape content */
   }
 
   .expert-bottom-content {
-    text-align: left;
+    text-align: left; /* Align text to the left */
   }
-  .exper-bottom .btn-secondary {
-    margin-inline: 0;
+
+  .expert-bottom .btn-secondary {
+    margin-inline: 0; /* Reset inline margins for buttons */
   }
 
   /**
@@ -1941,27 +1939,19 @@ footer {
    */
 
   .footer-brand {
-    margin-bottom: 40px;
+    margin-bottom: 40px; /* Margin below footer brand */
   }
 
   .footer-link-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: grid; /* Grid layout for footer links */
+    grid-template-columns: repeat(2, 1fr); /* Two-column grid */
   }
 }
-
-.footerlogo {
-  width: 200px; /* Set the desired width */
-  height: auto;
-  padding-top: 40px;
-  margin-bottom: 5px;
-}
-
 /**
  * responsive for larger than 768px 
  */
 
-@media (min-width: 768px) {
+ @media (min-width: 768px) {
   /**
    * CUSTOM PROPERTY 
    */
@@ -1970,9 +1960,8 @@ footer {
     /**
      * typography
      */
-
-    --fs-2: 35px;
-    --fs-4: 20px;
+    --fs-2: 35px; /* Font size for headings */
+    --fs-4: 20px; /* Font size for smaller text */
   }
 
   /**
@@ -1980,7 +1969,9 @@ footer {
    */
 
   .container {
-    max-width: 740px;
+    max-width: 740px; /* Maximum width for the container */
+    margin: 0 auto; /* Center container */
+    padding: 0 15px; /* Padding for better spacing */
   }
 
   /**
@@ -1988,35 +1979,49 @@ footer {
    */
 
   .about-list {
-    grid-template-columns: 1fr 1fr;
+    display: grid; /* Use grid layout for the about section */
+    grid-template-columns: repeat(2, 1fr); /* Two columns for larger screens */
+    gap: 20px; /* Space between grid items */
   }
 
   .about-card {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    height: 100%; /* Maintain full height for cards */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Column direction for content */
+    justify-content: space-between; /* Space between content */
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Add padding inside cards */
+    border: 1px solid #e0e0e0; /* Optional border for better visibility */
+    border-radius: 8px; /* Optional border radius for rounded corners */
   }
 
   .about-card .card-title {
-    padding-inline: 0;
+    padding-inline: 0; /* Reset padding for card titles */
+    font-size: var(--fs-2); /* Use defined font size */
+    text-align: center; /* Center text in titles */
   }
 
   .expert-list {
-    grid-template-columns: 1fr 1fr;
+    display: grid; /* Use grid layout for the expert section */
+    grid-template-columns: repeat(2, 1fr); /* Two columns for larger screens */
+    gap: 20px; /* Space between grid items */
   }
 
   .expert-card {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    height: 100%; /* Maintain full height for expert cards */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Column direction for content */
+    justify-content: space-between; /* Space between content */
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Add padding inside cards */
+    border: 1px solid #e0e0e0; /* Optional border for better visibility */
+    border-radius: 8px; /* Optional border radius for rounded corners */
   }
 
   .expert-card .card-title {
-    padding-inline: 0;
+    padding-inline: 0; /* Reset padding for card titles */
+    font-size: var(--fs-2); /* Use defined font size */
+    text-align: center; /* Center text in titles */
   }
 
   /**
@@ -2024,7 +2029,9 @@ footer {
    */
 
   .contact-title {
-    --fs-2: 42px;
+    --fs-2: 42px; /* Increase font size for contact title */
+    text-align: center; /* Center the contact title */
+    margin-bottom: 20px; /* Add space below the title */
   }
 }
 
@@ -2032,13 +2039,15 @@ footer {
  * responsive for larger than 1024px 
  */
 
-@media (min-width: 1024px) {
+ @media (min-width: 1024px) {
   /**
    * REUSED STYLE
    */
 
   .container {
-    max-width: 950px;
+    max-width: 950px; /* Set maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Add padding for better spacing */
   }
 
   /**
@@ -2046,34 +2055,34 @@ footer {
    */
 
   .navbar-menu-btn {
-    display: none;
+    display: none; /* Hide menu button on larger screens */
   }
 
   .navbar {
-    max-height: unset;
-    visibility: visible;
-    position: static;
-    width: auto;
-    background: none;
-    pointer-events: all;
-    overflow: visible;
-    display: flex;
+    max-height: none; /* Allow full height for navbar */
+    visibility: visible; /* Ensure navbar is visible */
+    position: static; /* Reset position */
+    width: auto; /* Set width to auto */
+    background: none; /* Remove background */
+    pointer-events: all; /* Allow interaction */
+    overflow: visible; /* Allow overflow */
+    display: flex; /* Flex display for navbar */
   }
 
   .navbar-list {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-right: 20px;
+    display: flex; /* Flex display for navbar items */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Space between items */
+    margin-right: 20px; /* Right margin for spacing */
   }
 
   .nav-link {
-    opacity: 1;
-    padding: 0 15px;
+    opacity: 1; /* Full opacity for nav links */
+    padding: 0 15px; /* Padding for nav links */
   }
 
   .navbar .btn-primary {
-    display: block;
+    display: block; /* Show primary button */
   }
 
   /**
@@ -2081,19 +2090,19 @@ footer {
    */
 
   .hero-content {
-    max-width: 550px;
+    max-width: 550px; /* Max width for hero content */
   }
 
   .hero-banner {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    width: 500px;
-    padding-top: 500px;
-    background: url("../images/hero-banner.png") no-repeat;
-    background-size: contain;
+    display: block; /* Ensure hero banner is displayed */
+    position: absolute; /* Absolute positioning */
+    top: 50%; /* Center vertically */
+    right: 0; /* Align to the right */
+    transform: translateY(-50%); /* Center alignment */
+    width: 500px; /* Fixed width */
+    padding-top: 500px; /* Padding for spacing */
+    background: url("../images/hero-banner.png") no-repeat; /* Background image */
+    background-size: contain; /* Contain image within bounds */
   }
 
   /**
@@ -2101,53 +2110,52 @@ footer {
    */
 
   .about-top .section-text {
-    max-width: 650px;
-    margin-inline: auto;
+    max-width: 650px; /* Max width for section text */
+    margin-inline: auto; /* Center section text */
   }
 
   .about-list {
-    grid-template-columns: repeat(3, 1fr);
+    display: grid; /* Grid layout for about list */
+    grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+    gap: 20px; /* Space between items */
   }
 
   .about-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Flex layout for bottom section */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
   }
 
   .about-bottom-banner {
-    margin-bottom: 0;
-    height: 330px;
+    margin-bottom: 0; /* Reset margin */
+    height: 330px; /* Fixed height */
   }
 
   .about-bottom-content {
-    padding-inline: 0;
-    width: 50%;
-  }
-
-  .about-top .section-text {
-    max-width: 650px;
-    margin-inline: auto;
+    padding-inline: 0; /* Reset padding */
+    width: 50%; /* Fixed width */
   }
 
   .expert-list {
-    grid-template-columns: repeat(3, 1fr);
+    display: grid; /* Grid layout for expert list */
+    grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+    gap: 20px; /* Space between items */
   }
 
   .expert-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Flex layout for bottom section */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
   }
 
   .expert-bottom-banner {
-    margin-bottom: 0;
-    height: 330px;
+    margin-bottom: 0; /* Reset margin */
+    height: 330px; /* Fixed height */
   }
 
   .expert-bottom-content {
-    padding-inline: 0;
-    width: 50%;
+    padding-inline: 0; /* Reset padding */
+    width: 50%; /* Fixed width */
   }
 
   /**
@@ -2155,64 +2163,66 @@ footer {
    */
 
   .features :is(.section-title, .section-text) {
-    max-width: 650px;
-    margin-inline: auto;
+    max-width: 650px; /* Max width for section title and text */
+    margin-inline: auto; /* Center section title and text */
   }
 
   .features-item {
-    display: flex;
-    align-items: center;
-    gap: 50px;
+    display: flex; /* Flex layout for features item */
+    align-items: center; /* Center items vertically */
+    gap: 50px; /* Space between items */
   }
 
   .features-item-banner {
-    margin-inline: 0;
-    margin-bottom: 0;
+    margin-inline: 0; /* Reset margin */
+    margin-bottom: 0; /* Reset margin */
   }
 
   .feature-item-content {
-    width: 50%;
-    text-align: left;
+    width: 50%; /* Fixed width for feature content */
+    text-align: left; /* Left align text */
   }
 
   .features-item:last-child {
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; /* Reverse order for last item */
   }
 
   /**
    * TESTIMONIAL
    */
 
-  /* .sk-ww-google-reviews {
-  max-width: 600px; 
-  margin: 0 auto;
-  background-color: grey;
-  border-color: #d3040e;
-}
- */
+  /* Uncomment if needed for Google reviews */
+  /*
+  .sk-ww-google-reviews {
+    max-width: 600px; 
+    margin: 0 auto; 
+    background-color: grey; 
+    border-color: #d3040e;
+  }
+  */
 
   /**
    * CONTACT
    */
 
   .contact .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    margin-top: 100px;
+    display: flex; /* Flex layout for contact section */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    gap: 50px; /* Space between items */
+    margin-top: 100px; /* Margin on top */
   }
 
   .contact-content {
-    max-width: 400px;
+    max-width: 400px; /* Max width for contact content */
   }
 
   .contact-title {
-    text-align: left;
+    text-align: left; /* Left align contact title */
   }
 
   .contact-form {
-    width: 50%;
+    width: 50%; /* Fixed width for contact form */
   }
 
   /**
@@ -2220,20 +2230,21 @@ footer {
    */
 
   .footer-top .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+    display: flex; /* Flex layout for footer section */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    gap: 50px; /* Space between items */
   }
 
   .footer-brand,
   .footer-link-list:not(:last-child) {
-    margin-bottom: 0;
+    margin-bottom: 0; /* Reset margin */
   }
 
   .footer-link-box {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
+    display: grid; /* Grid layout for footer links */
+    grid-template-columns: repeat(4, 1fr); /* Four columns layout */
+    gap: 50px; /* Space between items */
   }
 }
 
@@ -2241,17 +2252,16 @@ footer {
  * responsive for larger than 1200px 
  */
 
-@media (min-width: 1200px) {
+ @media (min-width: 1200px) {
   /**
    * CUSTOM PROPERTY 
    */
 
   :root {
     /**
-     * typography
+     * Typography
      */
-
-    --fs-2: 42px;
+    --fs-2: 42px; /* Font size for h2 */
   }
 
   /**
@@ -2259,7 +2269,9 @@ footer {
    */
 
   .container {
-    max-width: 1150px;
+    max-width: 1150px; /* Max width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Add horizontal padding */
   }
 
   /**
@@ -2267,7 +2279,8 @@ footer {
    */
 
   .hero-banner {
-    right: 100px;
+    right: 100px; /* Positioning for the hero banner */
+    width: 600px; /* Width for larger screens */
   }
 
   /**
@@ -2275,11 +2288,13 @@ footer {
    */
 
   .about-bottom-banner {
-    height: 400px;
+    height: 400px; /* Fixed height for about banner */
+    margin: 20px 0; /* Vertical margin for spacing */
   }
 
   .expert-bottom-banner {
-    height: 400px;
+    height: 400px; /* Fixed height for expert banner */
+    margin: 20px 0; /* Vertical margin for spacing */
   }
 
   /**
@@ -2287,10 +2302,40 @@ footer {
    */
 
   .features .h2 {
-    --fs-2: 42px;
+    font-size: var(--fs-2); /* Use custom font size */
+    margin-bottom: 20px; /* Space below the heading */
   }
 
   .features :is(.section-title, .section-text) {
-    max-width: 850px;
+    max-width: 850px; /* Max width for section title and text */
+    margin: 0 auto; /* Center the title and text */
+    padding: 0 15px; /* Add horizontal padding */
+  }
+}
+
+/* Additional Responsive Adjustments for Smaller Screens */
+@media (max-width: 1199px) {
+  .container {
+    max-width: 95%; /* Allow more width on smaller screens */
+    padding: 0 10px; /* Reduce padding for smaller devices */
+  }
+
+  .hero-banner {
+    right: 50px; /* Adjust right positioning */
+    width: 80%; /* Make width responsive */
+  }
+
+  .about-bottom-banner,
+  .expert-bottom-banner {
+    height: auto; /* Allow dynamic height */
+    margin: 10px 0; /* Reduced margin for spacing */
+  }
+
+  .features .h2 {
+    font-size: 36px; /* Adjust font size for smaller screens */
+  }
+
+  .features :is(.section-title, .section-text) {
+    max-width: 100%; /* Allow full width on smaller screens */
   }
 }
