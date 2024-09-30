@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact Form</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <!-- Fontawesome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <header>
+    
+
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/img/verify_ads_png.png" alt="verifyads" class="logo">
+      </a>
+
+      <div class="navbar-wrapper">
+
+        <button class="navbar-menu-btn" data-navbar-toggle-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <nav class="navbar" data-navbar>
+
+          <ul class="navbar-list">
+
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+  
+            <li class="nav-item">
+              <div class="dropdown">
+                <a href="#chooseus" class="nav-link" class="dropdown-toggle">About</a>
+                <div class="dropdown-content">
+                  <a href="#chooseus">About Us</a>
+                  <a href="team.html">Our Team</a>
+                  <a href="carrer.html">Careers</a>
+                  <a href="contact.html">Contact Us</a>
+                </div>
+              </div>
+            </li>
+  
+            <li class="nav-item">
+              <div class="dropdown">
+                <a href="#about" class="nav-link" class="dropdown-toggle">Our Services</a>
+                <div class="dropdown-content">
+                  <a href="seo.html">SEO</a>
+                  <a href="smo.html">SMO</a>
+                  <a href="web.html">Web Development & Design</a>
+                  <a href="graphics.html">Graphics Design</a>
+                  <a href="paidadd.html">Paid Advertising All platforms</a>
+                  <a href="promotion.html">Promotional Video Marketing</a>
+                  <a href="localization.html">Translation & Localization Service</a>
+                  <a href="expert.html">Service Provider</a>
+                </div>
+              </div>
+            </li>
+  
+            <li class="nav-item">
+              <a href="team.html" class="nav-link">Our Team</a>
+            </li>
+  
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+  
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+  
+          </ul>
+        
+
+
+          
+          <button id="callButton" class="btn btn-primary">
+            <img src="./assets/img/lets talk.png" alt="Phone Icon" class="btn-icon"> 
+          </button>
+
+
+
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+  
+  <section class="contact-section">
+    <div class="contact-bg">
+      <h3>Get in Touch with Us</h3>
+      <h2>contact us</h2>
+      <div class="line">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda iste facilis quos impedit fuga
+        nobis modi debitis laboriosam velit reiciendis quisquam alias corporis, maxime enim, optio ab dolorum sequi qui.
+      </p>
+    </div>
+    <div class="contact-body">
+      <div class="contact-info">
+        <div>
+          <span><i class="fas fa-mobile-alt"></i></span>
+          <span>Phone No.</span>
+          <span class="text">(778) 899-4131</span>
+        </div>
+        <div>
+          <span><i class="fas fa-envelope-open"></i></span>
+          <span>E-mail</span>
+          <span class="text">sales@digitizeads.com</span>
+        </div>
+        <div>
+          <span><i class="fas fa-map-marker-alt"></i></span>
+          <span>Address</span>
+          <span class="text">Bhubaneswar – Head Office:
+            Plot No.1002/2430, IRC Village, Ps-Nayapalli, Dist-Khordha, Bhubaneswar, Dist-Khordha, Odisha - 751015.</span>
+        </div>
+        <div>
+          <span><i class="fas fa-clock"></i></span>
+          <span>Opening Hours</span>
+          <span class="text">Monday - Friday (9:00 AM to 5:00 PM)</span>
+        </div>
+      </div>
+
+
+      <div class="contact-form">
+        <form id="contactForm">
+          <div>
+            <input type="text" class="form-control" name="firstName" placeholder="First Name" required>
+            <input type="text" class="form-control" name="lastName" placeholder="Last Name" required>
+          </div>
+          <div>
+            <input type="email" class="form-control" name="email" placeholder="E-mail" required>
+            <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+          </div>
+          <div class="form-group">
+            <label>I am Looking For *</label>
+            <div class="checkbox-group">
+              <label><input type="checkbox" name="service" value="new-website"> New Website</label>
+              <label><input type="checkbox" name="service" value="website-redesign"> Website Redesign</label>
+              <label><input type="checkbox" name="service" value="digital-marketing"> Digital Marketing</label>
+              <label><input type="checkbox" name="service" value="seo"> SEO</label>
+              <label><input type="checkbox" name="service" value="logo-design"> Logo Design</label>
+              <label><input type="checkbox" name="service" value="website-audit"> Website Audit</label>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <label>Would You Like To Schedule? *</label>
+            <div class="radio-group">
+              <label><input type="radio" name="schedule" value="phone" required> Yes, By Phone!</label>
+              <label><input type="radio" name="schedule" value="zoom"> Yes, By Zoom!</label>
+              <label><input type="radio" name="schedule" value="skype"> Yes, By skype!</label>
+              <label><input type="radio" name="schedule" value="not-yet"> Not Yet, but can't wait to hear back!</label>
+            </div>
+          </div>
+          <textarea rows="5" name="message" placeholder="Message" class="form-control" required></textarea>
+          <input type="submit" class="btn btn-primary" value="send message">
+        </form>
+  
+        <div>
+          <img src="image/contact-png.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="contact-footer">
+      <h3>Follow Us</h3>
+      <div class="social-links">
+        <a href="https://www.facebook.com/DigitizeAds?mibextid=ZbWKw" class="fab fa-facebook-f"></a>
+        <!-- <a href="#" class="fab fa-twitter"></a> -->
+        <a href="https://instagram.com/_sanatani_hindutva_?igshid=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/company/digitizeads/" class="fab fa-linkedin"></a>
+        <a href="https://www.youtube.com/@digitizeads1970" class="fab fa-youtube"></a>
+      </div>
+    </div>
+  </section>
+
+<!-- Hidden Popup Initially -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h2>Thank You! 😊</h2>
+    <p>We have received your message. Our team will get back to you shortly.</p>
+         <a href="index.html" <button class="btn btn-primary" onclick="closePopup()">Go to Home</button></a>
+  </div>
+</div>
+
+
+  <script src="./assets/js/contact.js"></script>
+</body>
+
+</html>

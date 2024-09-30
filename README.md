@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   
 ___ 
 <p align="center">
@@ -18,10 +18,10 @@ ___
      <img alt = "MIT LICENSE" src="https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge" />
     </a>
 </p>
+ -->
 
 
-
-  <br />
+<!--   <br />
   <br />
   
   <img src="./readme-images/project-logo.png" />
@@ -39,28 +39,5 @@ ___
 
 <br />
 <br />
+ -->
 
-### Demo Screeshots
-
-![Funel Desktop Demo](./readme-images/desktop.png "Desktop Demo")
-![Funel Mobile Demo](./readme-images/mobile.png "Mobile Demo")
-
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-
-
-<!-- License -->
-## License
-This project is licensed under the [MIT License](LICENSE).
-
-<!-- Acknowledgments -->
-## Acknowledgments
-Thank you to the HTML5, CSS3, JavaScript And Figma communities for providing excellent tools and resources.
-
-<!-- Contact -->
-## Contact
-For questions or feedback, please contact [Amit Ashok Swain](mailto:business.amitswain@gmail.com).

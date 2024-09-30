@@ -1,4 +1,4 @@
-# Funel Style Guide
+<!-- # Funel Style Guide
 
 ## Html import links
 
@@ -67,3 +67,4 @@ Ionicon import link:
 ``` css
 --transition: 0.25s ease-in-out;
 ```
+ -->
