@@ -109,11 +109,7 @@ html {
 body {
     background: var(--white);
     overflow-x: hidden;
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-    -moz-transform: scale(1.0);
-    -ms-transform: scale(1.0);
-    -o-transform: scale(1.0);
+   
 }
 
 ::-webkit-scrollbar {
@@ -759,7 +755,7 @@ header .container {
 .aboutus-us-items {
   display: flex;
   flex-direction: column;
-  margin-top: 4rem;
+  margin: 7rem 3rem;
 }
 .aboutus-main-heading {
   font-size: 1.6rem;
